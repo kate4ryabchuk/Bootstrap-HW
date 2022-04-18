@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: rgb(225, 226, 226);
+}
+
+/* header section*/
+
+header {
+    background-color: rgb(101, 101, 218);
+    height: 50px;
+}
+
+.c-head {
+    display: flex;
+    line-height: 50px;
+}
+
+.comp {   
+    margin-top: 10px;
+    height: 25px;
+    flex: 0.1;
+}
+
+ul {
+    flex: 3.7;
+}
+
+li, ul {
+    display: inline-block;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+  
+a:hover {
+    text-shadow: 2px 1px 1px gray;
+    color: rgb(228, 228, 228);
+}
+
+.operator {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+/* homework container */
+
+.homework {
+    display: flex;
+    margin-top: 15px;
+}
+
+h1, h3 {
+    font-weight: normal;
+}
+
+h3 {
+    margin-top: 54px;
+    flex: 0.5;
+}
+
+h1 {
+    flex: 2;
+    text-align: center;
+}
+
+.indicator {
+    flex: 0.5;
+}
+
+.row-ind {
+    text-align: right;
+}
+
+span {
+    font-size: 14px;
+}
+
+.white, .green, .blue, .red {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.white {
+    background-color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+/* js cards */
+
+.col-4 {
+    margin: 20px 0;
+}
+
+.form-control, .btn-outline-success {
+    border-radius: 5px;
+}
+
+.btn-outline-success {
+    background-color: rgb(199, 195, 195);
+    border: 1px solid rgb(182, 179, 179);
+    color: black;
+}
+
+.loops {
+    background-color: rgb(212, 211, 211);
+}
+
+.cond-stat, .var {
+    background-color: rgb(135, 183, 206);
+    color: white;
+}
+
+/* HTML&CSS */
+
+.adapt, .grid {
+    background-color: rgb(221, 128, 128);
+    color: white;
+}
+
+.flex, .anim, .form, .tab {
+    background-color: rgb(99, 187, 110);
+    color: white;
+}
