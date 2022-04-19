@@ -17,6 +17,7 @@ header {
 
 .comp {   
     margin-top: 10px;
+    width: 30px;
     height: 25px;
     flex: 0.1;
 }
