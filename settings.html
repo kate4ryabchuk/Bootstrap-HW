@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container c-head d-flex">
+            <a class="comp-icon" href="">
+                <img class="comp" src="./img/comp.png" alt="">
+            </a>
+            <ul class="mb-0 d-flex">
+                <li class="d-flex">
+                    <a class="nav_link" href="home.html">Home</a>
+                </li>
+                <li class="d-flex">
+                    <a class="nav_link" href="index.html">Homework</a>
+                </li>
+                <li class="d-flex">
+                    <a class="nav_link" href="settings.html">Setting</a>
+                </li>
+            </ul>
+            <a class="operator-icon" href="">
+                <img class="operator w-50 h-50" src="./img/opertor.png" alt="">
+            </a>
+        </div>
+    </header>
+
+
+    <main class="container mt-5">
+        <h1 class="text-center mb-5">Settings</h1>
+
+        <div class="row name-col text-center mb-3">
+            <div class="col-2">AVARTAR</div>
+            <div class="col-5">STUDENT'S INFO</div>
+            <div class="col-5">CHANGE PASSWORD</div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 text-center my-3">
+                <img class="w-75" src="./img/av_256.png" alt="">
+                <button class="btn btn-secondary btn-small w-100 mt-3">Choose photo</button>
+            </div>
+            <div class="col-5 mt-3">
+                <input class="w-100 my-1" type="text" placeholder="First name">
+                <input class="w-100 my-1" type="text" placeholder="Last name">
+                <input class="w-100 my-1" type="email" placeholder="Email">
+                <input class="w-100 my-1" type="number" placeholder="Mobile phone">
+                <input class="w-100 my-1" type="text" placeholder="Address">
+                <input class="w-100 my-1" type="text" placeholder="FB Link">
+
+                <button class="btn btn-secondary btn-small w-100 mt-3">Save changes</button>
+            </div>
+            <div class="col-5 mt-3">
+                <input class="w-100 my-1" type="password" placeholder="Old password">
+                <input class="w-100 my-1" type="password" placeholder="Repeat password">
+                <input class="w-100 my-1" type="number" placeholder="New password">
+
+                <button class="btn btn-secondary btn-small w-100 mt-3">Change password</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
